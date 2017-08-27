@@ -13,7 +13,7 @@ $(function(){
            
            pUserId.innerHTML= "User ID:" + resultJson.userId;
            pUserName.innerHTML= "User Name:" + resultJson.userName;
-           pUserUrl.innerHTML= "User Url http://" + resultJson.userUrl;
+           pUserUrl.innerHTML= "User url: http://" + resultJson.userURL;
            
            document.body.appendChild(pUserId);
            document.body.appendChild(pUserName);
